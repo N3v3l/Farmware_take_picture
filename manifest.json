@@ -1,0 +1,22 @@
+{
+ "package": "take-photo",
+ "language": "python",
+ "author": "AscendFB",
+ "description": "Take a photo using a USB or Raspberry Pi camera.",
+ "version": "1.0.4",
+ "farmware_manifest_version": "2.0.0",
+ "farmbot_os_version_requirement": ">= 8.0.0",
+ "url": "https://github.com/N3v3l/Farmware_take_picture/master/manifest.json",
+ "zip": "https://github.com/N3v3l/Farmware_take_picture/archive/master.zip",
+ "executable": "python",
+ "args": ["Take-Photo-master/take_photo.py"],
+ "config": [
+    {"name": "brightness_val", "label": "Brightness", "value": 10.0 },
+    {"name": "contrast_val", "label": "Contrast", "value": 10.0 },
+    {"name": "saturation_val", "label": "Saturation", "value": 10.0 },
+    {"name": "hue_val", "label": "Hue", "value": 10.0 },
+    {"name": "gain_val", "label": "Gain", "value": 10.0 },
+    {"name": "width_val", "label": "Resolution Width", "value": 640 },
+    {"name": "height_val", "label": "Resolution Height", "value": 480 }
+  ]
+}
